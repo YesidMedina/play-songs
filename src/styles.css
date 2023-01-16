@@ -1,0 +1,287 @@
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.col {
+  column-count: auto;
+  margin-top: 40px;
+  margin: 0 auto;
+  max-width: 100%;
+  column-width: 9.375rem;
+}
+
+.imag {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar {
+  position: relative;
+  background-color: rgba(62, 60, 60, 0.575);
+  padding-top: 20px;
+}
+.text {
+  position: absolute;
+  color: beige;
+  font-weight: 800;
+  margin-left: 14px;
+  margin-top: -8px;
+}
+.text-1 {
+  margin-right: 30px;
+  font-weight: 800;
+  color: beige;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.buttom {
+  background-color: black;
+  padding-top: 20px;
+  padding-bottom: 56px;
+}
+.title {
+  color: white;
+  position: absolute;
+  margin-left: 30px;
+  margin-top: -70px;
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: 800;
+  text-align: center;
+}
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color: rgb(51, 50, 50);
+  margin-top: 56px;
+}
+
+/* Paginas Albums */
+
+.gradient {
+  background-color: black;
+  background: linear-gradient(rgb(56, 56, 56), rgb(5, 5, 5));
+  margin-bottom: 30px;
+}
+
+.albums {
+  text-align: center;
+  margin-bottom: 10px;
+  color: rgb(215, 220, 225);
+}
+
+.image-artist {
+  border-radius: 50%;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+.title-album {
+  font-size: xx-large;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.image-albums {
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.header-album {
+  background-color: rgb(50, 48, 48);
+}
+
+.photo {
+  border-radius: 50px;
+}
+
+.table {
+  width: 960px;
+  margin-left: 160px;
+  color: antiquewhite;
+  font-size: medium;
+  margin-bottom: -1px;
+}
+
+.text-table {
+  width: 900px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.text-table1 {
+  font-size: small;
+  font-size: 11px;
+}
+.text-o {
+  color: antiquewhite;
+  margin-left: 240px;
+  padding-top: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.icon-1 {
+  margin-left: 800px;
+  font-size: 14px;
+}
+
+.start {
+  position: absolute;
+  font-size: 14px;
+  color: rgb(213, 213, 14);
+}
+
+/* page songs */
+
+.image-song {
+  margin-left: 42px;
+  margin-top: 24px;
+}
+.title-song {
+  margin-left: 210px;
+  color: aliceblue;
+  margin-top: -116px;
+}
+.title1-song {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.title2-song {
+  font-size: 15px;
+}
+.title3-song {
+  font-size: 13px;
+}
+.song-home {
+  color: aliceblue;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 60px;
+  font-size: 13px;
+  font-weight: 800;
+  overflow: hidden;
+}
+.song-home:hover {
+  background-color: rgb(47, 46, 46);
+}
+
+.song2-home {
+  margin-left: 800px;
+  text-align: center;
+}
+
+.song {
+  color: aliceblue;
+  margin-bottom: 40px;
+  margin-top: 120px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.song-back {
+  background: linear-gradient(rgb(5, 5, 5), rgba(48, 39, 27, 0.942));
+}
+
+.duration {
+  position: relative;
+  margin-right: 50px;
+  font-weight: 200;
+  text-align: center;
+}
+
+.player1 {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background-color: rgb(35, 34, 34);
+}
+
+.player {
+  margin-left: 300px;
+  font-size: 12px;
+}
+
+.play {
+  margin-left: 60px;
+  margin-top: 10px;
+}
+.text-play {
+  color: aliceblue;
+  margin-left: 700px;
+  margin-top: -60px;
+  font-size: 20px;
+}
+.text-complet {
+  text-align: center;
+}
+.image-play {
+  margin-left: 600px;
+  margin-top: -55px;
+  border-radius: 50px;
+}
+.name-text {
+  margin-top: 6px;
+  font-size: 12px;
+}
+.icon-song {
+  margin-left: 1400px;
+  margin-top: -50px;
+  color: rgb(251, 255, 240);
+  font-size: 30px;
+}
+.icon1-song {
+  margin-left: 1300px;
+  margin-top: -50px;
+  color: aliceblue;
+  font-size: 25px;
+}
+
+.icon2-song {
+  margin-left: 1300px;
+  margin-top: -45px;
+  color: aliceblue;
+  font-size: 30px;
+}
+.icon3-song {
+  margin-left: 1250px;
+  margin-top: -45px;
+  color: rgb(232, 239, 150);
+  font-size: 30px;
+}
+.icon4-song {
+  margin-left: 1200px;
+  margin-top: -45px;
+  font-size: 30px;
+  color: yellow;
+}
+
+.count {
+  color: rgb(114, 128, 44);
+  font-weight: 200;
+  text-align: center;
+}
+
+.song-sugge {
+  color: aliceblue;
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-weight: 800;
+}
+.song-sugge:hover {
+  background-color: rgb(47, 46, 46);
+  width: 60%;
+}
+
+.song1-sugge {
+  margin-right: 50px;
+  font-weight: 200;
+  margin-top: 2px;
+}
