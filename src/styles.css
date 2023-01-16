@@ -8,8 +8,9 @@ a:active {
   column-count: auto;
   margin-top: 40px;
   margin: 0 auto;
+  vertical-align: middle;
   max-width: 100%;
-  column-width: 9.375rem;
+  column-width: 10rem;
 }
 
 .imag {
@@ -50,7 +51,6 @@ a:active {
   font-family: sans-serif;
   font-size: 10px;
   font-weight: 800;
-  text-align: center;
 }
 .footer {
   width: 100%;
@@ -82,7 +82,6 @@ a:active {
 .title-album {
   font-size: xx-large;
   justify-content: center;
-  margin-left: 10px;
   margin-top: 20px;
   font-size: 28px;
   font-weight: 500;
@@ -141,6 +140,8 @@ a:active {
 .image-song {
   margin-left: 42px;
   margin-top: 24px;
+  height: 200px;
+  width: 100%;
 }
 .title-song {
   margin-left: 210px;
@@ -153,11 +154,10 @@ a:active {
   margin-bottom: 12px;
 }
 .title2-song {
-  font-size: 15px;
-}
-.title3-song {
   font-size: 13px;
+  margin-top: 20px;
 }
+
 .song-home {
   color: aliceblue;
   margin-bottom: 30px;
@@ -179,7 +179,15 @@ a:active {
 .song {
   color: aliceblue;
   margin-bottom: 40px;
-  margin-top: 120px;
+  margin-top: 26px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: 800;
+}
+.song1 {
+  color: aliceblue;
+  margin-bottom: 40px;
+  margin-top: 60px;
   margin-left: 40px;
   font-size: 20px;
   font-weight: 800;
@@ -187,6 +195,10 @@ a:active {
 
 .song-back {
   background: linear-gradient(rgb(5, 5, 5), rgba(48, 39, 27, 0.942));
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(75, 72, 72);
+  border-top: none;
 }
 
 .duration {
@@ -200,8 +212,8 @@ a:active {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 80px;
-  background-color: rgb(35, 34, 34);
+  height: 65px;
+  background-color: rgb(28, 27, 27);
 }
 
 .player {
@@ -211,21 +223,28 @@ a:active {
 
 .play {
   margin-left: 60px;
-  margin-top: 10px;
+  margin-top: 4px;
 }
+
+.play-image {
+  margin-top: -20px;
+}
+
 .text-play {
   color: aliceblue;
-  margin-left: 700px;
-  margin-top: -60px;
-  font-size: 20px;
+  margin-left: 650px;
+  margin-top: -65px;
+  font-size: 18px;
 }
 .text-complet {
   text-align: center;
 }
 .image-play {
-  margin-left: 600px;
+  margin-left: 560px;
   margin-top: -55px;
-  border-radius: 50px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(79, 78, 78);
 }
 .name-text {
   margin-top: 6px;
@@ -233,7 +252,7 @@ a:active {
 }
 .icon-song {
   margin-left: 1400px;
-  margin-top: -50px;
+  margin-top: -20px;
   color: rgb(251, 255, 240);
   font-size: 30px;
 }
@@ -284,4 +303,15 @@ a:active {
   margin-right: 50px;
   font-weight: 200;
   margin-top: 2px;
+}
+
+.container1 {
+  margin-left: 10px;
+  margin-top: -32px;
+}
+
+.img {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(79, 78, 78);
 }

@@ -49,7 +49,7 @@ export const SongPage = () => {
           />
         ))}
       </div>
-      <div className="song">Sugerencias</div>
+      <div className="song1">Sugerencias</div>
       <div>
         {artist.map((artist) => (
           <SuggestionSong key={artist.id} {...artist} />
